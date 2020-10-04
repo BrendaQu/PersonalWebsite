@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me</title>
+    </head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Marko One' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <header>
+        <!-- Sidebar Menu -->
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> X </a>
+            <a href="HomePage.html"> Home </a>
+            <a href="AboutMe.html"> About Me</a>
+            <a href="Photography.html">Photography</a>
+            <a href="Artwork.html"> Artwork </a>
+            <a href="Contact.html"> Contact </a>
+        </div>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+    </div>
+    </header>
+    <body>
+        <!-- Profile Image -->
+        <div class="container">
+        <div class="column1">
+            <img src="Images/ProfileAboutMe.JPG" alt="Brenda" class="center img-circle" style="height: 70%; width: 70%">
+        </div>
+        <!-- Bio -->
+        <div class="column2">
+            <h3>About Me</h3>
+            <p> Hello, my name is Brenda. I graduated from the University of Colorado at Boulder with a degree in Environmental Engineering an a minor in Computer Science. I currently work as a Business System Specialist. I am passionate about Web Development and looking for work as a Front End Web Developer. A couple of my hobbies include drawing and photography. </p>
+            </br>
+            <h5>Click below to view my work</h5>
+            <a href = "Photography.html"><button class = "small-btn">Photography</button> </a>
+            <a href = "Artwork.html"><button class = "small-btn">Artwork</button></a>
+        </div>
+    </div>
+
+    </body>
+</br>
+    <!-- Footer -->
+    <footer style="margin-top: 3%;">
+        <a href = "mailto:brenda.quach@colorado.edu" title="Email"><i class="fa fa-envelope-o" style="font-size:24px"></i></a>&nbsp
+        <a href = "https://www.linkedin.com/in/brenda-q-50778617a" title="LinkedIn"><i class="fa fa-linkedin" style="font-size:24px"></i></a>&nbsp
+        <a href = "https://www.instagram.com/brenduhwhat/" title="Instagram"><i class="fa fa-instagram" style="font-size:24px"></i></a>&nbsp
+        <a href = "https://twitter.com/brenduhwhat" title="Twitter"><i class="fa fa-twitter" style="font-size:24px"></i></a>
+    </footer>
+    <!-- Menu Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("body").style.opacity = 0.5;
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.getElementById("body").style.opacity = 1;
+      }
+  </script>  
+</html>

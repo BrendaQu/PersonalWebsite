@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photography</title>
+    </head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <header>
+        <!-- Sidebar Menu -->
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> X </a>
+            <a href="HomePage.html"> Home </a>
+            <a href="AboutMe.html"> About Me</a>
+            <a href="Photography.html">Photography</a>
+            <a href="Artwork.html"> Artwork </a>
+            <a href="Contact.html"> Contact </a>
+        </div>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+    </div>
+    </header>
+    <body>
+        <!-- Photo Grid -->
+        <div id="body" class="container">
+            <div class="row">
+                <div class="col-4">
+                    <a href="Images/pic1.JPG" target="_blank">
+                        <figure><img src="Images/pic1.JPG" alt="Image 1"></figure>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="Images/pic2.JPG" target="_blank">
+                        <figure><img src="Images/pic2.JPG" alt="Image 1"></figure>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="Images/pic3.JPG" target="_blank">
+                        <figure><img src="Images/pic3.JPG" alt="Image 1"></figure>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <a href="Images/pic4.JPG" target="_blank">
+                        <figure><img src="Images/pic4.JPG" alt="Image 1"></figure>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="Images/pic5.JPG" target="_blank">
+                        <figure><img src="Images/pic5.JPG" alt="Image 1"></figure>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="Images/pic6.JPG" target="_blank">
+                        <figure><img src="Images/pic6.JPG" alt="Image 1"></figure>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <a href="Images/pic7.JPG" target="_blank">
+                        <figure><img src="Images/pic7.JPG" alt="Image 1"></figure>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="Images/pic8.JPG" target="_blank">
+                        <figure><img src="Images/pic8.JPG" alt="Image 1"></figure>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="Images/pic9.JPG" target="_blank">
+                        <figure><img src="Images/pic9.JPG" alt="Image 1"></figure>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <a href="Images/pic10.JPG" target="_blank">
+                        <figure><img src="Images/pic10.JPG" alt="Image 1"></figure>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="Images/pic11.JPG" target="_blank">
+                        <figure><img src="Images/pic11.JPG" alt="Image 1"></figure>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="Images/pic12.JPG" target="_blank">
+                        <figure><img src="Images/pic12.JPG" alt="Image 1"></figure>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+</br>
+    <!-- Footer -->
+    <footer>
+        <a href = "mailto:brenda.quach@colorado.edu" title="Email"><i class="fa fa-envelope-o" style="font-size:24px"></i></a>&nbsp
+        <a href = "https://www.linkedin.com/in/brenda-q-50778617a" title="LinkedIn"><i class="fa fa-linkedin" style="font-size:24px"></i></a>&nbsp
+        <a href = "https://www.instagram.com/brenduhwhat/" title="Instagram"><i class="fa fa-instagram" style="font-size:24px"></i></a>&nbsp
+        <a href = "https://twitter.com/brenduhwhat" title="Twitter"><i class="fa fa-twitter" style="font-size:24px"></i></a>
+    </footer>
+
+    <!-- Menu Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("body").style.opacity = 0.5;
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.getElementById("body").style.opacity = 1;
+      }
+  </script>  
+</html>
